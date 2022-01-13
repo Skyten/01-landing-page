@@ -53,6 +53,26 @@ header li {
 }
 
 footer {
-    height: 100px;
-    background-color: gray;
+    /* height: 100px; */
+    padding: 20px 0;
+    background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    height: 35px;
+    margin: 0 15px;
+}
+
+footer img {
+    height: 100%;
+    width: 100%;
+}
+
+footer img:hover {
+    filter: sepia(70%) saturate(1905%) hue-rotate(326deg) brightness(106%) contrast(103%);
 }
