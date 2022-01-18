@@ -28,17 +28,17 @@ main li img {
     object-fit: cover;
 }
 
-.content-item {
+.item-content {
     display: flex;
     flex-flow: column;
     padding: 25px;
 }
 
-.content-item h2 {
+.item-content h2 {
     font-size: 35px;
 }
 
-.content-item p {
+.item-content p {
     font-size: 18px;
     margin: 0;
     /* padding: 0; */
