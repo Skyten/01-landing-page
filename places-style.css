@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+}
+
+header {
+    position: static;
+    background: transparent;
+}
+
+main ul {
+    width: 800px;
+    margin: 0 auto;
+}
+
+main li {
+    display: flex;
+    background: white; 
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden; /* It's apply parrents property to child */
+    flex-flow: row nowrap;
+
+}
+
+main li img {
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.content-item {
+    display: flex;
+    flex-flow: column;
+    padding: 25px;
+}
+
+.content-item h2 {
+    font-size: 35px;
+}
+
+.content-item p {
+    font-size: 18px;
+    margin: 0;
+    /* padding: 0; */
+    text-align: justify;
+}
+
+.actions {
+    text-align: right;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: right;
+    align-items: center;
+}
+
+.btn-explore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 10px;
+}
+
+.btn-explore:hover {
+    border-radius: 5px;
+    background-color: rgba(20, 255, 78, 0.2);
+}
+.actions a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding-right: 7px;
+    color: #00ff40;
+}
+
+
+.actions img {
+    height: 15px;
+    width: 15px;
+    filter: invert(68%) sepia(95%) saturate(1393%) hue-rotate(78deg) brightness(99%) contrast(120%);
+}
