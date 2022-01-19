@@ -4,11 +4,25 @@ body {
 
 header {
     position: static;
-    background: transparent;
+    background: white;
+}
+
+#page-logo a {
+    color: #00ff40;
+}
+
+.btn {
+    color: #00ff40;
+}
+
+.btn:hover {
+    box-shadow: unset;
+    border-radius: 5px;
+    background-color: rgba(20, 255, 78, 0.2);
 }
 
 main ul {
-    width: 800px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -19,7 +33,7 @@ main li {
     border-radius: 10px;
     overflow: hidden; /* It's apply parrents property to child */
     flex-flow: row nowrap;
-
+    width: 500px;
 }
 
 main li img {
@@ -58,6 +72,7 @@ main li img {
     align-items: center;
     justify-content: center;
     padding: 7px 10px;
+    margin-top: 45px;
 }
 
 .btn-explore:hover {
@@ -71,7 +86,6 @@ main li img {
     padding-right: 7px;
     color: #00ff40;
 }
-
 
 .actions img {
     height: 15px;

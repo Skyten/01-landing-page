@@ -56,11 +56,13 @@ footer {
     height: 50px;
     padding: 20px 0;
     background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer ul {
     display: flex;
-    justify-content: center;
 }
 
 footer li {
