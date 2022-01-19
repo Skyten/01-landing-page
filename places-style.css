@@ -4,6 +4,7 @@ body {
 
 header {
     position: static;
+    /* margin-bottom: 20px; */
     background: white;
 }
 
@@ -23,7 +24,14 @@ header {
 
 main ul {
     width: 1200px;
-    margin: 0 auto;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+}
+
+li:nth-of-type(3) {
+    grid-column: 1 / span 2;
 }
 
 main li {
@@ -33,12 +41,12 @@ main li {
     border-radius: 10px;
     overflow: hidden; /* It's apply parrents property to child */
     flex-flow: row nowrap;
-    width: 500px;
+    width: auto;
 }
 
 main li img {
     width: 300px;
-    height: 280px;
+    height: auto;
     object-fit: cover;
 }
 
@@ -92,3 +100,7 @@ main li img {
     width: 15px;
     filter: invert(68%) sepia(95%) saturate(1393%) hue-rotate(78deg) brightness(99%) contrast(120%);
 }
+
+/* footer {
+    margin-top: 20px;
+} */
